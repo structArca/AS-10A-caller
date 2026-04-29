@@ -1,0 +1,99 @@
+{
+    "solution": {
+        "AS-10A": {
+            "ui": {
+                "application": {
+                    "fps": 120,
+                    "screen": {
+                        "resolution": [
+                            2.0,
+                            2.0
+                        ],
+                        "colorSpecification": {
+                            "main": [
+                                0.875,
+                                0.875,
+                                0.875,
+                                1.0
+                            ],
+                            "sub": [
+                                0.175,
+                                0.175,
+                                0.175,
+                                1.0
+                            ]
+                        }
+                    }
+                },
+                "window": {
+                    "main": {
+                        "relativeRect": [
+                            0.10,
+                            0.10,
+                            0.90,
+                            0.90
+                        ],
+                        "drawingRegion": {
+                            "workspace": {
+                                "drawingState": true,
+                                "relativeRect": [
+                                    0.10,
+                                    0.10,
+                                    0.90,
+                                    0.90
+                                ],
+                                "color": [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ],
+                                "drawCommand": [
+                                    "draw-all"
+                                ],
+                                "jsonFile": [
+                                    "3D-Objects.json"
+                                ],
+                                "object": [
+                                    "objectA",
+                                    "objectB-surface",
+                                    "objectB-line"
+                                ],
+                                "childlen": {
+                                    "preview": {
+                                        "drawingState": true,
+                                        "relativeRect": [
+                                            0.60,
+                                            0.10,
+                                            0.90,
+                                            0.90
+                                        ],
+                                        "color": [
+                                            0.0,
+                                            0.0,
+                                            0.0,
+                                            1.0
+                                        ],
+                                        "drawCommand": [
+                                            "draw-all"
+                                        ],
+                                        "jsonFile": [
+                                            "3D-Objects.json"
+                                        ],
+                                        "object": [
+                                            "objectA",
+                                            "objectB-surface",
+                                            "objectB-line"
+                                        ],
+                                        "childlen": {
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

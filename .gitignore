@@ -1,0 +1,8 @@
+vs/
+AS-10A/
+x64/
+FLC.bat
+*.user
+*.log
+*.recipe
+*.obj
