@@ -6,3 +6,4 @@ FLC.bat
 *.log
 *.recipe
 *.obj
+packages/*

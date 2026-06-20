@@ -2,29 +2,69 @@
     "TransformMatrixFile": "test.3dtm",
     "objectA": {
         "DrawingState": "Enabled",
-        "ObjectBaseInfoFile": "test.3dobj",
-        "TransformMatrixGroupName": {
-            "World": "world-test",
-            "View": "view-test",
-            "Projection": "projection-test"
+        "ModelDataFormat": "default",
+        "ModelData": {
+            "ObjectBaseInfoFile": "test.3dobj"
+        },
+        "TextureDataFormat": "none",
+        "TransformDataFormat": "default",
+        "TransformData": {
+            "TransformMatrixGroupName": {
+                "World": "world-test",
+                "View": "view-test",
+                "Projection": "projection-test"
+            }
         }
     },
     "objectB-surface": {
         "DrawingState": "Enabled",
-        "ObjectBaseInfoFile": "test.3dobj",
-        "TransformMatrixGroupName": {
-            "World": "world-test",
-            "View": "view-test",
-            "Projection": "projection-test"
+        "ModelDataFormat": "default",
+        "ModelData": {
+            "ObjectBaseInfoFile": "test.3dobj"
+        },
+        "TextureDataFormat": "none",
+        "TransformDataFormat": "default",
+        "TransformData": {
+            "TransformMatrixGroupName": {
+                "World": "world-test",
+                "View": "view-test",
+                "Projection": "projection-test"
+            }
         }
     },
     "objectB-line": {
         "DrawingState": "Enabled",
-        "ObjectBaseInfoFile": "test.3dobj",
-        "TransformMatrixGroupName": {
-            "World": "world-test",
-            "View": "view-test2",
-            "Projection": "projection-test"
+        "ModelDataFormat": "default",
+        "ModelData": {
+            "ObjectBaseInfoFile": "test.3dobj"
+        },
+        "TextureDataFormat": "none",
+        "TransformDataFormat": "default",
+        "TransformData": {
+            "TransformMatrixGroupName": {
+                "World": "world-test",
+                "View": "view-test2",
+                "Projection": "projection-test"
+            }
+        }
+    },
+    "preview01": {
+        "DrawingState": "Enabled",
+        "ModelDataFormat": "default",
+        "ModelData": {
+            "ObjectBaseInfoFile": "test.3dobj"
+        },
+        "TextureDataFormat": "DDS",
+        "TextureData": {
+            "TextureDataFile": "test.dds"
+        },
+        "TransformDataFormat": "default",
+        "TransformData": {
+            "TransformMatrixGroupName": {
+                "World": "world-plane",
+                "View": "view-plane",
+                "Projection": "projection-plane"
+            }
         }
     }
 }

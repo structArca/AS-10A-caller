@@ -51,7 +51,8 @@
                                 "drawCommand": [
                                     "DrawObject objectA",
                                     "DrawObject preview",
-                                    "DrawObject preview2"
+                                    "DrawObject preview2",
+                                    "DrawObject preview01"
                                 ],
                                 "jsonFile": [
                                     "3D-Objects.json"
@@ -59,7 +60,8 @@
                                 "object": [
                                     "objectA",
                                     "objectB-surface",
-                                    "objectB-line"
+                                    "objectB-line",
+                                    "preview01"
                                 ],
                                 "childlen": {
                                     "preview": {
@@ -77,7 +79,7 @@
                                             1.0
                                         ],
                                         "drawCommand": [
-                                            "DrawObject --all"
+                                            "DrawObject objectB-line"
                                         ],
                                         "jsonFile": [
                                             "3D-Objects.json"
