@@ -49,19 +49,21 @@
                                     1.0
                                 ],
                                 "drawCommand": [
-                                    "DrawObject objectA",
                                     "DrawObject preview",
                                     "DrawObject preview2",
-                                    "DrawObject preview01"
+                                    "DrawObject +pattern01",
+                                    "DrawObject +pattern01-shape"
                                 ],
                                 "jsonFile": [
                                     "3D-Objects.json"
                                 ],
                                 "object": [
-                                    "objectA",
-                                    "objectB-surface",
-                                    "objectB-line",
-                                    "preview01"
+                                    "+objectA",
+                                    "+objectB-surface",
+                                    "+objectB-line",
+                                    "+preview01",
+                                    "+pattern01",
+                                    "+pattern01-shape"
                                 ],
                                 "childlen": {
                                     "preview": {
@@ -79,15 +81,16 @@
                                             1.0
                                         ],
                                         "drawCommand": [
-                                            "DrawObject objectB-line"
+                                            "DrawObject +objectA",
+                                            "DrawObject +objectB-line"
                                         ],
                                         "jsonFile": [
                                             "3D-Objects.json"
                                         ],
                                         "object": [
-                                            "objectA",
-                                            "objectB-surface",
-                                            "objectB-line"
+                                            "+objectA",
+                                            "+objectB-surface",
+                                            "+objectB-line"
                                         ],
                                         "childlen": {
                                         }
@@ -113,9 +116,9 @@
                                             "3D-Objects.json"
                                         ],
                                         "object": [
-                                            "objectA",
-                                            "objectB-surface",
-                                            "objectB-line"
+                                            "+objectA",
+                                            "+objectB-surface",
+                                            "+objectB-line"
                                         ],
                                         "childlen": {
                                         }

@@ -7,3 +7,4 @@ FLC.bat
 *.recipe
 *.obj
 packages/*
+save/* 

@@ -1,10 +1,11 @@
 {
     "TransformMatrixFile": "test.3dtm",
-    "objectA": {
+    "+objectA": {
         "DrawingState": "Enabled",
         "ModelDataFormat": "default",
         "ModelData": {
-            "ObjectBaseInfoFile": "test.3dobj"
+            "ModelDataName": "objectA",
+            "ModelDataFile": "test.3dobj"
         },
         "TextureDataFormat": "none",
         "TransformDataFormat": "default",
@@ -16,11 +17,12 @@
             }
         }
     },
-    "objectB-surface": {
+    "+objectB-surface": {
         "DrawingState": "Enabled",
         "ModelDataFormat": "default",
         "ModelData": {
-            "ObjectBaseInfoFile": "test.3dobj"
+            "ModelDataName": "objectB-surface",
+            "ModelDataFile": "test.3dobj"
         },
         "TextureDataFormat": "none",
         "TransformDataFormat": "default",
@@ -32,11 +34,12 @@
             }
         }
     },
-    "objectB-line": {
+    "+objectB-line": {
         "DrawingState": "Enabled",
         "ModelDataFormat": "default",
         "ModelData": {
-            "ObjectBaseInfoFile": "test.3dobj"
+            "ModelDataName": "objectB-line",
+            "ModelDataFile": "test.3dobj"
         },
         "TextureDataFormat": "none",
         "TransformDataFormat": "default",
@@ -48,11 +51,12 @@
             }
         }
     },
-    "preview01": {
+    "+preview01": {
         "DrawingState": "Enabled",
         "ModelDataFormat": "default",
         "ModelData": {
-            "ObjectBaseInfoFile": "test.3dobj"
+            "ModelDataName": "preview01",
+            "ModelDataFile": "test.3dobj"
         },
         "TextureDataFormat": "DDS",
         "TextureData": {
@@ -64,6 +68,57 @@
                 "World": "world-plane",
                 "View": "view-plane",
                 "Projection": "projection-plane"
+            }
+        }
+    },
+    "+pattern00": {
+        "DrawingState": "Enabled",
+        "ModelDataFormat": "default",
+        "ModelData": {
+            "ModelDataName": "pattern00",
+            "ModelDataFile": "test.3dobj"
+        },
+        "TextureDataFormat": "none",
+        "TransformDataFormat": "default",
+        "TransformData": {
+            "TransformMatrixGroupName": {
+                "World": "world-test",
+                "View": "view-test3",
+                "Projection": "projection-test"
+            }
+        }
+    },
+    "+pattern01": {
+        "DrawingState": "Enabled",
+        "ModelDataFormat": "default",
+        "ModelData": {
+            "ModelDataName": "pattern01",
+            "ModelDataFile": "test.3dobj"
+        },
+        "TextureDataFormat": "none",
+        "TransformDataFormat": "default",
+        "TransformData": {
+            "TransformMatrixGroupName": {
+                "World": "world-test",
+                "View": "view-test3",
+                "Projection": "projection-test"
+            }
+        }
+    },
+    "+pattern01-shape": {
+        "DrawingState": "Enabled",
+        "ModelDataFormat": "default",
+        "ModelData": {
+            "ModelDataName": "pattern01-shape",
+            "ModelDataFile": "test.3dobj"
+        },
+        "TextureDataFormat": "none",
+        "TransformDataFormat": "default",
+        "TransformData": {
+            "TransformMatrixGroupName": {
+                "World": "world-test",
+                "View": "view-test3",
+                "Projection": "projection-test"
             }
         }
     }
